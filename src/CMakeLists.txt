@@ -1,0 +1,13 @@
+idf_component_register(SRCS "FwPrConfig.c"
+        "FwPrCore.c"
+        "FwPrDCreate.c"
+        "FwPrSCreate.c"
+        "FwRtConfig.c"
+        "FwRtCore.c"
+        "FwSmAux.c"
+        "FwSmConfig.c"
+        "FwSmConfig.c"
+        "FwSmCore.c"
+        "FwSmDCreate.c"
+        "FwSmSCreate.c"
+        INCLUDE_DIRS ".")
